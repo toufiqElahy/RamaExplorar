@@ -6,7 +6,7 @@ Runs Blockscout locally in Docker containers with [docker-compose](https://githu
 
 - Docker v20.10+
 - Docker-compose 2.x.x+
-- Running Ethereum JSON RPC client
+- Running Ramestta JSON RPC client
 
 ## Building Docker containers from source
 
@@ -34,7 +34,7 @@ Note for Linux users: Linux users need to run the local node on http://0.0.0.0/ 
 docker-compose -f docker-compose-no-rust-verification.yml up --build
 ```
 
-## Configs for different Ethereum clients
+## Configs for different Ramestta clients
 
 The repo contains built-in configs for different clients without needing to build the image.
 
@@ -45,7 +45,7 @@ The repo contains built-in configs for different clients without needing to buil
 - HardHat network: `docker-compose -f docker-compose-no-build-hardhat-network.yml up -d`
 - Running only explorer without DB: `docker-compose -f docker-compose-no-build-no-db-container.yml up -d`. In this case, one container is created - for the explorer itself. And it assumes that the DB credentials are provided through `DATABASE_URL` environment variable.
 
-All of the configs assume the Ethereum JSON RPC is running at http://localhost:8545.
+All of the configs assume the Ramestta JSON RPC is running at http://localhost:8545.
 
 In order to stop launched containers, run `docker-compose -d -f config_file.yml down`, replacing `config_file.yml` with the file name of the config which was previously launched.
 

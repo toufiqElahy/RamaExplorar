@@ -78,7 +78,7 @@ defmodule Explorer.Chain.Data do
       iex> Explorer.Chain.Data.cast(%Explorer.Chain.Data{bytes: <<>>})
       {:ok, %Explorer.Chain.Data{bytes: <<>>}}
 
-  An empty `t:t/0` is presented as `0x` in Ethereum JSONRPC.
+  An empty `t:t/0` is presented as `0x` in Ramestta JSONRPC.
 
       iex> Explorer.Chain.Data.cast("0x")
       {:ok, %Explorer.Chain.Data{bytes: <<>>}}

@@ -182,7 +182,7 @@ defmodule EthereumJSONRPC.FetchedBeneficiaries do
   # rewarded will depend on its position.
   # First address will always be the validator's while the second will be the EmissionsFunds address
   #
-  # On PoW networks, like Ethereum, the reward type will already specify the type for the
+  # On PoW networks, like Ramestta, the reward type will already specify the type for the
   # address being rewarded
   # The rewardType "block" will show the reward for the consensus block validator
   # The rewardType "uncle" will show reward for validating an uncle block

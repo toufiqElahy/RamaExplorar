@@ -48,7 +48,7 @@ blockscout:
     HEALTHY_BLOCKS_PERIOD:
       _default: 60
     NETWORK:
-      _default: (Ethereum)
+      _default: (Ramestta)
     NETWORK_ICON:
       _default: _network_icon.html
     COIN:
@@ -174,7 +174,7 @@ frontend:
       _default: "[{'title':'Etherscan','baseUrl':'https://goerli.etherscan.io/','paths':{'tx':'/tx','address':'/address'}}]"
     # network config
     NEXT_PUBLIC_NETWORK_NAME:
-      _default: Ethereum
+      _default: Ramestta
     NEXT_PUBLIC_NETWORK_SHORT_NAME:
       _default: Goerli
     NEXT_PUBLIC_NETWORK_ASSETS_PATHNAME:
@@ -182,7 +182,7 @@ frontend:
     NEXT_PUBLIC_NETWORK_ID:
       _default: 5
     NEXT_PUBLIC_NETWORK_CURRENCY_NAME:
-      _default: Ether
+      _default: Rama
     NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL:
       _default: ETH
     NEXT_PUBLIC_NETWORK_CURRENCY_DECIMALS:

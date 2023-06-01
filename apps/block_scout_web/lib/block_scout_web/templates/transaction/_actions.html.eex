@@ -8,7 +8,7 @@
 
         <i class="fa fa-caret-right"></i>
 
-        <% symbol = if symbol != "Ether", do: link(symbol, to: token_path(BlockScoutWeb.Endpoint, :show, address), "data-test": "token_link"), else: raw(symbol) %>
+        <% symbol = if symbol != "Rama", do: link(symbol, to: token_path(BlockScoutWeb.Endpoint, :show, address), "data-test": "token_link"), else: raw(symbol) %>
 
         <%= if @action.type == :borrow do %>
           <%= render BlockScoutWeb.TransactionView, "_actions_aave.html", action: "Borrow", amount: amount, symbol: symbol, tail: "From Aave Protocol V3" %>
@@ -37,7 +37,7 @@
 
         <i class="fa fa-caret-right"></i>
 
-        <% symbol = if symbol != "Ether", do: link(symbol, to: token_path(BlockScoutWeb.Endpoint, :show, address), "data-test": "token_link"), else: raw(symbol) %>
+        <% symbol = if symbol != "Rama", do: link(symbol, to: token_path(BlockScoutWeb.Endpoint, :show, address), "data-test": "token_link"), else: raw(symbol) %>
 
         <%= if @action.type == :enable_collateral do %>
           <span class="text-muted">Enable</span>
@@ -55,7 +55,7 @@
       <% debt_amount = formatted_action_amount(@action.data, "debt_amount") %>
       <% debt_symbol = Map.get(@action.data, "debt_symbol") %>
       <% debt_address = Map.get(@action.data, "debt_address") %>
-      <% debt_symbol = if debt_symbol != "Ether", do: link(debt_symbol, to: token_path(BlockScoutWeb.Endpoint, :show, debt_address), "data-test": "token_link"), else: raw(debt_symbol) %>
+      <% debt_symbol = if debt_symbol != "Rama", do: link(debt_symbol, to: token_path(BlockScoutWeb.Endpoint, :show, debt_address), "data-test": "token_link"), else: raw(debt_symbol) %>
 
       <span class="actions-item">
         <i class="fa fa-caret-right"></i>
@@ -66,7 +66,7 @@
       <% collateral_amount = formatted_action_amount(@action.data, "collateral_amount") %>
       <% collateral_symbol = Map.get(@action.data, "collateral_symbol") %>
       <% collateral_address = Map.get(@action.data, "collateral_address") %>
-      <% collateral_symbol = if collateral_symbol != "Ether", do: link(collateral_symbol, to: token_path(BlockScoutWeb.Endpoint, :show, collateral_address), "data-test": "token_link"), else: raw(collateral_symbol) %>
+      <% collateral_symbol = if collateral_symbol != "Rama", do: link(collateral_symbol, to: token_path(BlockScoutWeb.Endpoint, :show, collateral_address), "data-test": "token_link"), else: raw(collateral_symbol) %>
 
       <span class="actions-item">
         <i class="fa fa-caret-right"></i>
@@ -117,9 +117,9 @@
         
         <i class="fa fa-caret-right"></i>
         
-        <% symbol0 = if symbol0 != "Ether", do: link(symbol0, to: token_path(BlockScoutWeb.Endpoint, :show, address0), "data-test": "token_link"), else: raw(symbol0) %>
+        <% symbol0 = if symbol0 != "Rama", do: link(symbol0, to: token_path(BlockScoutWeb.Endpoint, :show, address0), "data-test": "token_link"), else: raw(symbol0) %>
         
-        <% symbol1 = if symbol1 != "Ether", do: link(symbol1, to: token_path(BlockScoutWeb.Endpoint, :show, address1), "data-test": "token_link"), else: raw(symbol1) %>
+        <% symbol1 = if symbol1 != "Rama", do: link(symbol1, to: token_path(BlockScoutWeb.Endpoint, :show, address1), "data-test": "token_link"), else: raw(symbol1) %>
 
         <%= if @action.type == :mint do %>
           <%= render BlockScoutWeb.TransactionView, "_actions_uniswap.html", action: "Add", amount0: amount0, symbol0: symbol0, conjunction: "And", amount1: amount1, symbol1: symbol1, tail: "Liquidity To Uniswap V3" %>

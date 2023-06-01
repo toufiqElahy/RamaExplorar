@@ -77,7 +77,7 @@ export function createCoinBalanceHistoryChart (el) {
               title: {
                 display: true,
                 // @ts-ignore
-                labelString: window.localized.Ether
+                labelString: window.localized.Rama
               }
             }
           }

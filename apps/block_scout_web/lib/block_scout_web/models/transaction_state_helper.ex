@@ -113,7 +113,7 @@ defmodule BlockScoutWeb.Models.TransactionStateHelper do
         balance_diff = Decimal.sub(balance, balance_before)
         transfer = elem(List.first(transfers), 1)
 
-        if transfer.token.type != "ERC-20" or has_diff?(balance_diff) do
+        if transfer.token.type != "RAMA-20" or has_diff?(balance_diff) do
           %StateChange{
             coin_or_token_transfers: transfers,
             address: address,

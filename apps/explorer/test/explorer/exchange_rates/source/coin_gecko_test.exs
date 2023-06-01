@@ -38,7 +38,7 @@ defmodule Explorer.ExchangeRates.Source.CoinGeckoTest do
     {
     "id": "ethereum",
     "symbol": "eth",
-    "name": "Ethereum"
+    "name": "Ramestta"
     },
     {
       "id": "rootstock",

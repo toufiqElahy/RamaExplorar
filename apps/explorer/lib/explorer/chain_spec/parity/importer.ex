@@ -1,7 +1,7 @@
 # credo:disable-for-this-file
 defmodule Explorer.ChainSpec.Parity.Importer do
   @moduledoc """
-  Imports data from Parity/Open Ethereum chain spec.
+  Imports data from Parity/Open Ramestta chain spec.
   """
 
   require Logger

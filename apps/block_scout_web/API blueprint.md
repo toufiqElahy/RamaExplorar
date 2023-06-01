@@ -523,11 +523,11 @@ HOST:http://blockscout.com/poa/core
                   "outcoming": true,
                   "incoming": true
                 },
-                "ERC-721": {
+                "RAMA-721": {
                   "outcoming": true,
                   "incoming": false
                 },
-                "ERC-20": {
+                "RAMA-20": {
                   "outcoming": true,
                   "incoming": true
                 }
@@ -558,11 +558,11 @@ HOST:http://blockscout.com/poa/core
                   "outcoming": true,
                   "incoming": true
                 },
-                "ERC-721": {
+                "RAMA-721": {
                   "outcoming": true,
                   "incoming": false
                 },
-                "ERC-20": {
+                "RAMA-20": {
                   "outcoming": true,
                   "incoming": true
                 }
@@ -616,11 +616,11 @@ HOST:http://blockscout.com/poa/core
                     "outcoming": true,
                     "incoming": true
                   },
-                  "ERC-721": {
+                  "RAMA-721": {
                     "outcoming": true,
                     "incoming": false
                   },
-                  "ERC-20": {
+                  "RAMA-20": {
                     "outcoming": false,
                     "incoming": false
                   }
@@ -650,11 +650,11 @@ HOST:http://blockscout.com/poa/core
                     "outcoming": true,
                     "incoming": true
                   },
-                  "ERC-721": {
+                  "RAMA-721": {
                     "outcoming": true,
                     "incoming": false
                   },
-                  "ERC-20": {
+                  "RAMA-20": {
                     "outcoming": true,
                     "incoming": true
                   }
@@ -733,11 +733,11 @@ HOST:http://blockscout.com/poa/core
                   "outcoming": false,
                   "incoming": false
                 },
-                "ERC-721": {
+                "RAMA-721": {
                   "outcoming": false,
                   "incoming": true
                 },
-                "ERC-20": {
+                "RAMA-20": {
                   "outcoming": false,
                   "incoming": true
                 }
@@ -768,11 +768,11 @@ HOST:http://blockscout.com/poa/core
                   "outcoming": false,
                   "incoming": false
                 },
-                "ERC-721": {
+                "RAMA-721": {
                   "outcoming": false,
                   "incoming": true
                 },
-                "ERC-20": {
+                "RAMA-20": {
                   "outcoming": false,
                   "incoming": true
                 }
@@ -816,11 +816,11 @@ HOST:http://blockscout.com/poa/core
                   "outcoming": false,
                   "incoming": false
                 },
-                "ERC-721": {
+                "RAMA-721": {
                   "outcoming": false,
                   "incoming": true
                 },
-                "ERC-20": {
+                "RAMA-20": {
                   "outcoming": false,
                   "incoming": true
                 }
@@ -876,11 +876,11 @@ HOST:http://blockscout.com/poa/core
                   "outcoming": false,
                   "incoming": false
                 },
-                "ERC-721": {
+                "RAMA-721": {
                   "outcoming": false,
                   "incoming": true
                 },
-                "ERC-20": {
+                "RAMA-20": {
                   "outcoming": false,
                   "incoming": true
                 }

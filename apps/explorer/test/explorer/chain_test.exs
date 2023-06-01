@@ -1824,7 +1824,7 @@ defmodule Explorer.ChainTest do
         params: [
           %{
             contract_address_hash: "0x8bf38d4764929064f2d4d3a56520a76ab3df415b",
-            type: "ERC-20"
+            type: "RAMA-20"
           }
         ]
       },
@@ -1982,7 +1982,7 @@ defmodule Explorer.ChainTest do
                         <<139, 243, 141, 71, 100, 146, 144, 100, 242, 212, 211, 165, 101, 32, 167, 106, 179, 223, 65,
                           91>>
                     },
-                    type: "ERC-20",
+                    type: "RAMA-20",
                     inserted_at: %{},
                     updated_at: %{}
                   }
@@ -4890,9 +4890,9 @@ defmodule Explorer.ChainTest do
   end
 
   describe "stream_unfetched_token_instances/2" do
-    test "reduces with given reducer and accumulator for ERC-721 token" do
+    test "reduces with given reducer and accumulator for RAMA-721 token" do
       token_contract_address = insert(:contract_address)
-      token = insert(:token, contract_address: token_contract_address, type: "ERC-721")
+      token = insert(:token, contract_address: token_contract_address, type: "RAMA-721")
 
       transaction =
         :transaction
@@ -4917,7 +4917,7 @@ defmodule Explorer.ChainTest do
 
     test "does not fetch token transfers without token_ids" do
       token_contract_address = insert(:contract_address)
-      token = insert(:token, contract_address: token_contract_address, type: "ERC-721")
+      token = insert(:token, contract_address: token_contract_address, type: "RAMA-721")
 
       transaction =
         :transaction
@@ -4939,7 +4939,7 @@ defmodule Explorer.ChainTest do
 
     test "do not fetch records with token instances" do
       token_contract_address = insert(:contract_address)
-      token = insert(:token, contract_address: token_contract_address, type: "ERC-721")
+      token = insert(:token, contract_address: token_contract_address, type: "RAMA-721")
 
       transaction =
         :transaction
@@ -5288,7 +5288,7 @@ defmodule Explorer.ChainTest do
   describe "address_to_unique_tokens/2" do
     test "unique tokens can be paginated through token_id" do
       token_contract_address = insert(:contract_address)
-      token = insert(:token, contract_address: token_contract_address, type: "ERC-721")
+      token = insert(:token, contract_address: token_contract_address, type: "RAMA-721")
 
       insert(
         :token_instance,

@@ -23,7 +23,7 @@
 - [#6694](https://github.com/blockscout/blockscout/pull/6694) - Add withdrawals support (EIP-4895)
 - [#7355](https://github.com/blockscout/blockscout/pull/7355) - Add endpoint for token info import
 - [#7393](https://github.com/blockscout/blockscout/pull/7393) - Realtime fetcher max gap
-- [#7436](https://github.com/blockscout/blockscout/pull/7436) - TokenBalanceOnDemand ERC-1155 support
+- [#7436](https://github.com/blockscout/blockscout/pull/7436) - TokenBalanceOnDemand RAMA-1155 support
 - [#7469](https://github.com/blockscout/blockscout/pull/7469), [#7485](https://github.com/blockscout/blockscout/pull/7485), [#7493](https://github.com/blockscout/blockscout/pull/7493) - Clear missing block ranges after every success import
 - [#7489](https://github.com/blockscout/blockscout/pull/7489) - INDEXER_CATCHUP_BLOCK_INTERVAL env var
 
@@ -99,7 +99,7 @@
 
 - [#7317](https://github.com/blockscout/blockscout/pull/7317) - Fix tokensupply API v1 endpoint: handle nil total_supply
 - [#7290](https://github.com/blockscout/blockscout/pull/7290) - Allow nil gas price for pending tx (Erigon node case)
-- [#7288](https://github.com/blockscout/blockscout/pull/7288) - API v2 improvements: Fix tx type for pending contract creation; Remove owner for not unique ERC-1155 token instances
+- [#7288](https://github.com/blockscout/blockscout/pull/7288) - API v2 improvements: Fix tx type for pending contract creation; Remove owner for not unique RAMA-1155 token instances
 - [#7283](https://github.com/blockscout/blockscout/pull/7283) - Fix status for dropped/replaced tx
 - [#7270](https://github.com/blockscout/blockscout/pull/7270) - Fix default `TOKEN_EXCHANGE_RATE_REFETCH_INTERVAL`
 - [#7276](https://github.com/blockscout/blockscout/pull/7276) - Convert 99+% of int txs indexing into 100% in order to hide top indexing banner
@@ -487,7 +487,7 @@
 - [#6243](https://github.com/blockscout/blockscout/pull/6243) - Fix freezes on `/blocks` page
 - [#6162](https://github.com/blockscout/blockscout/pull/6162) - Extend token symbol type varchar(255) -> text
 - [#6158](https://github.com/blockscout/blockscout/pull/6158) - Add missing clause for merge_twin_vyper_contract_with_changeset function
-- [#6090](https://github.com/blockscout/blockscout/pull/6090) - Fix metadata fetching for ERC-1155 tokens instances
+- [#6090](https://github.com/blockscout/blockscout/pull/6090) - Fix metadata fetching for RAMA-1155 tokens instances
 - [#6091](https://github.com/blockscout/blockscout/pull/6091) - Improve fetching media type for NFT
 - [#6094](https://github.com/blockscout/blockscout/pull/6094) - Fix inconsistent behavior of `getsourcecode` method
 - [#6105](https://github.com/blockscout/blockscout/pull/6105) - Fix some token transfers broadcasting
@@ -521,7 +521,7 @@
 - [#6195](https://github.com/blockscout/blockscout/pull/6195) - Docker compose configs improvements: Redis container name and persistent storage
 - [#6192](https://github.com/blockscout/blockscout/pull/6192), [#6207](https://github.com/blockscout/blockscout/pull/6207) - Hide Indexing Internal Transactions message, if INDEXER_DISABLE_INTERNAL_TRANSACTIONS_FETCHER=true
 - [#6183](https://github.com/blockscout/blockscout/pull/6183) - Transparent coin name definition
-- [#6155](https://github.com/blockscout/blockscout/pull/6155), [#6189](https://github.com/blockscout/blockscout/pull/6189) - Refactor Ethereum JSON RPC variants
+- [#6155](https://github.com/blockscout/blockscout/pull/6155), [#6189](https://github.com/blockscout/blockscout/pull/6189) - Refactor Ramestta JSON RPC variants
 - [#6125](https://github.com/blockscout/blockscout/pull/6125) - Rename obsolete "parity" EthereumJSONRPC.Variant to "nethermind"
 - [#6124](https://github.com/blockscout/blockscout/pull/6124) - Docker compose: add config for Erigon
 - [#6061](https://github.com/blockscout/blockscout/pull/6061) - Discord badge and updated permalink
@@ -730,9 +730,9 @@
 - [#5807](https://github.com/blockscout/blockscout/pull/5807) - Update Makefile migrate command due to release build
 - [#5786](https://github.com/blockscout/blockscout/pull/5786) - Replace `current_path` with `Controller.current_full_path` in two controllers
 - [#5948](https://github.com/blockscout/blockscout/pull/5948) - Fix unexpected messages in `CoinBalanceOnDemand`
-- [#6013](https://github.com/blockscout/blockscout/pull/6013) - Fix ERC-1155 tokens fetching
+- [#6013](https://github.com/blockscout/blockscout/pull/6013) - Fix RAMA-1155 tokens fetching
 - [#6043](https://github.com/blockscout/blockscout/pull/6043) - Fix token instance fetching
-- [#6093](https://github.com/blockscout/blockscout/pull/6093) - Fix Indexer.Fetcher.TokenInstance for ERC-1155 tokens
+- [#6093](https://github.com/blockscout/blockscout/pull/6093) - Fix Indexer.Fetcher.TokenInstance for RAMA-1155 tokens
 
 ### Chore
 
@@ -971,7 +971,7 @@
 - [#5383](https://github.com/blockscout/blockscout/pull/5383) - Fix reload transactions button
 - [#5381](https://github.com/blockscout/blockscout/pull/5381), [#5397](https://github.com/blockscout/blockscout/pull/5397) - Fix exchange rate broadcast error
 - [#5375](https://github.com/blockscout/blockscout/pull/5375) - Fix pending transactions fetcher
-- [#5374](https://github.com/blockscout/blockscout/pull/5374) - Return all ERC-1155's token instances in tokenList api endpoint
+- [#5374](https://github.com/blockscout/blockscout/pull/5374) - Return all RAMA-1155's token instances in tokenList api endpoint
 - [#5342](https://github.com/blockscout/blockscout/pull/5342) - Fix 500 error on NF token page with nil metadata
 - [#5319](https://github.com/blockscout/blockscout/pull/5319), [#5357](https://github.com/blockscout/blockscout/pull/5357), [#5425](https://github.com/blockscout/blockscout/pull/5425) - Empty blocks sanitizer performance improvement
 - [#5310](https://github.com/blockscout/blockscout/pull/5310) - Fix flash on reload in dark mode
@@ -991,7 +991,7 @@
 - [#5480](https://github.com/blockscout/blockscout/pull/5480) - Remove duplicate of balances_params_to_address_params function
 - [#5473](https://github.com/blockscout/blockscout/pull/5473) - Refactor daily coin balances fetcher
 - [#5458](https://github.com/blockscout/blockscout/pull/5458) - Decrease min safe polling period for realtime fetcher
-- [#5456](https://github.com/blockscout/blockscout/pull/5456) - Ignore arbitrary block details fields for custom Ethereum clients
+- [#5456](https://github.com/blockscout/blockscout/pull/5456) - Ignore arbitrary block details fields for custom Ramestta clients
 - [#5450](https://github.com/blockscout/blockscout/pull/5450) - Logging error in publishing of smart-contract
 - [#5433](https://github.com/blockscout/blockscout/pull/5433) - Caching modules refactoring
 - [#5419](https://github.com/blockscout/blockscout/pull/5419) - Add check if address exists for some api methods
@@ -1140,7 +1140,7 @@
 - [#4807](https://github.com/blockscout/blockscout/pull/4807) - Added support for BeaconProxy pattern
 - [#4777](https://github.com/blockscout/blockscout/pull/4777), [#4791](https://github.com/blockscout/blockscout/pull/4791), [#4799](https://github.com/blockscout/blockscout/pull/4799), [#4847](https://github.com/blockscout/blockscout/pull/4847) - Added decoding revert reason
 - [#4776](https://github.com/blockscout/blockscout/pull/4776) - Added view for unsuccessfully fetched values from read functions
-- [#4761](https://github.com/blockscout/blockscout/pull/4761) - ERC-1155 support
+- [#4761](https://github.com/blockscout/blockscout/pull/4761) - RAMA-1155 support
 - [#4739](https://github.com/blockscout/blockscout/pull/4739) - Improve logs and inputs decoding
 - [#4747](https://github.com/blockscout/blockscout/pull/4747) - Advanced CSV export
 - [#4745](https://github.com/blockscout/blockscout/pull/4745) - Vyper contracts verification
@@ -1768,7 +1768,7 @@
 - [#3125](https://github.com/blockscout/blockscout/pull/3125) - Fix performance of coin balance history chart
 - [#3122](https://github.com/blockscout/blockscout/pull/3122) - Exclude balance percentage calculation for burn address on accounts page
 - [#3121](https://github.com/blockscout/blockscout/pull/3121) - Geth: handle response from eth_getblockbyhash JSON RPC method without totalDifficulty (uncle blocks)
-- [#3119](https://github.com/blockscout/blockscout/pull/3119), [#3120](https://github.com/blockscout/blockscout/pull/3120) - Fix performance of Inventory tab loading for ERC-721 tokens
+- [#3119](https://github.com/blockscout/blockscout/pull/3119), [#3120](https://github.com/blockscout/blockscout/pull/3120) - Fix performance of Inventory tab loading for RAMA-721 tokens
 - [#3114](https://github.com/blockscout/blockscout/pull/3114) - Fix performance of "Blocks validated" page
 - [#3112](https://github.com/blockscout/blockscout/pull/3112) - Fix verification of contracts, compiled with nightly builds of solc compiler
 - [#3112](https://github.com/blockscout/blockscout/pull/3112) - Check compiler version at contract verification
@@ -1788,7 +1788,7 @@
 - [#3089](https://github.com/blockscout/blockscout/pull/3089) - CoinGecko API coin id environment variable
 - [#3069](https://github.com/blockscout/blockscout/pull/3069) - Make a link to address page on decoded constructor argument of address type
 - [#3067](https://github.com/blockscout/blockscout/pull/3067) - Show proper title of the tile or container for token burnings/mintings instead of "Token Transfer"
-- [#3066](https://github.com/blockscout/blockscout/pull/3066) - ERC-721 token instance page: link to token added
+- [#3066](https://github.com/blockscout/blockscout/pull/3066) - RAMA-721 token instance page: link to token added
 - [#3065](https://github.com/blockscout/blockscout/pull/3065) - Transactions history chart
 
 ### Fixes
@@ -2451,9 +2451,9 @@ Reverting of synchronous block counter, implemented in #1848
 - [#1739](https://github.com/blockscout/blockscout/pull/1739) - highlight decompiled source code
 - [#1696](https://github.com/blockscout/blockscout/pull/1696) - full-text search by tokens
 - [#1742](https://github.com/blockscout/blockscout/pull/1742) - Support RSK
-- [#1777](https://github.com/blockscout/blockscout/pull/1777) - show ERC-20 token transfer info on transaction page
+- [#1777](https://github.com/blockscout/blockscout/pull/1777) - show RAMA-20 token transfer info on transaction page
 - [#1770](https://github.com/blockscout/blockscout/pull/1770) - set a websocket keepalive from config
-- [#1789](https://github.com/blockscout/blockscout/pull/1789) - add ERC-721 info to transaction overview page
+- [#1789](https://github.com/blockscout/blockscout/pull/1789) - add RAMA-721 info to transaction overview page
 - [#1801](https://github.com/blockscout/blockscout/pull/1801) - Staking pools fetching
 
 ### Fixes

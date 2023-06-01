@@ -142,7 +142,7 @@ config :ueberauth, Ueberauth.Strategy.Auth0.OAuth,
 config :ueberauth, Ueberauth, logout_url: "https://#{System.get_env("ACCOUNT_AUTH0_DOMAIN")}/v2/logout"
 
 ########################
-### Ethereum JSONRPC ###
+### Ramestta JSONRPC ###
 ########################
 
 config :ethereum_jsonrpc,

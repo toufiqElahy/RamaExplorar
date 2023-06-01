@@ -92,11 +92,11 @@ defmodule Explorer.Factory do
           "incoming" => random_bool(),
           "outcoming" => random_bool()
         },
-        "ERC-20" => %{
+        "RAMA-20" => %{
           "incoming" => random_bool(),
           "outcoming" => random_bool()
         },
-        "ERC-721" => %{
+        "RAMA-721" => %{
           "incoming" => random_bool(),
           "outcoming" => random_bool()
         }
@@ -643,7 +643,7 @@ defmodule Explorer.Factory do
       total_supply: 1_000_000_000,
       decimals: 18,
       contract_address: build(:address),
-      type: "ERC-20",
+      type: "RAMA-20",
       cataloged: true
     }
   end
@@ -852,7 +852,7 @@ defmodule Explorer.Factory do
       block_number: block_number(),
       value: Enum.random(1..100_000),
       value_fetched_at: DateTime.utc_now(),
-      token_type: "ERC-20"
+      token_type: "RAMA-20"
     }
   end
 
@@ -876,7 +876,7 @@ defmodule Explorer.Factory do
   end
 
   def address_current_token_balance_with_token_id_factory do
-    {token_type, token_id} = Enum.random([{"ERC-20", nil}, {"ERC-721", nil}, {"ERC-1155", Enum.random(1..100_000)}])
+    {token_type, token_id} = Enum.random([{"RAMA-20", nil}, {"RAMA-721", nil}, {"RAMA-1155", Enum.random(1..100_000)}])
 
     %CurrentTokenBalance{
       address: build(:address),

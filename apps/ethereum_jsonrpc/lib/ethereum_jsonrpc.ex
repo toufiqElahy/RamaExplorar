@@ -1,6 +1,6 @@
 defmodule EthereumJSONRPC do
   @moduledoc """
-  Ethereum JSONRPC client.
+  Ramestta JSONRPC client.
 
   ## Configuration
 

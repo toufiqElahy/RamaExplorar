@@ -568,7 +568,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 #, elixir-autogen, elixir-format
-msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
+msgid "Ramascan is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ramestta Networks."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction_state/_state_change.html.eex:8
@@ -1187,27 +1187,27 @@ msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:220
 #, elixir-autogen, elixir-format
-msgid "ERC-1155 "
+msgid "RAMA-1155 "
 msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:218
 #, elixir-autogen, elixir-format
-msgid "ERC-20 "
+msgid "RAMA-20 "
 msgstr ""
 
 #: lib/block_scout_web/templates/account/watchlist_address/form.html.eex:40
 #, elixir-autogen, elixir-format
-msgid "ERC-20 tokens (beta)"
+msgid "RAMA-20 tokens (beta)"
 msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:219
 #, elixir-autogen, elixir-format
-msgid "ERC-721 "
+msgid "RAMA-721 "
 msgstr ""
 
 #: lib/block_scout_web/templates/account/watchlist_address/form.html.eex:53
 #, elixir-autogen, elixir-format
-msgid "ERC-721, ERC-1155 tokens (NFT) (beta)"
+msgid "RAMA-721, RAMA-1155 tokens (NFT) (beta)"
 msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
@@ -1663,7 +1663,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:331
 #, elixir-autogen, elixir-format
-msgid "List of ERC-1155 tokens created in the transaction."
+msgid "List of RAMA-1155 tokens created in the transaction."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:315
@@ -2387,7 +2387,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:59
 #, elixir-autogen, elixir-format
-msgid "Shows the tokens held in the address (includes ERC-20, ERC-721 and ERC-1155)."
+msgid "Shows the tokens held in the address (includes RAMA-20, RAMA-721 and RAMA-1155)."
 msgstr ""
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:66
@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:44
 #, elixir-autogen, elixir-format
-msgid "The fallback function is executed on a call to the contract if none of the other functions match the given function signature, or if no data was supplied at all and there is no receive Ether function. The fallback function always receives data, but in order to also receive Ether it must be marked payable."
+msgid "The fallback function is executed on a call to the contract if none of the other functions match the given function signature, or if no data was supplied at all and there is no receive Rama function. The fallback function always receives data, but in order to also receive Rama it must be marked payable."
 msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:138
@@ -2619,7 +2619,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:46
 #, elixir-autogen, elixir-format
-msgid "The receive function is executed on a call to the contract with empty calldata. This is the function that is executed on plain Ether transfers (e.g. via .send() or .transfer()). If no such function exists, but a payable fallback function exists, the fallback function will be called on a plain Ether transfer. If neither a receive Ether nor a payable fallback function is present, the contract cannot receive Ether through regular transactions and throws an exception."
+msgid "The receive function is executed on a call to the contract with empty calldata. This is the function that is executed on plain Rama transfers (e.g. via .send() or .transfer()). If no such function exists, but a payable fallback function exists, the fallback function will be called on a plain Rama transfer. If neither a receive Rama nor a payable fallback function is present, the contract cannot receive Rama through regular transactions and throws an exception."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:137

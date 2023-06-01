@@ -86,16 +86,16 @@ defmodule BlockScoutWeb.Account.Api.V1.UserView do
           "incoming" => watchlist.watch_coin_input,
           "outcoming" => watchlist.watch_coin_output
         },
-        "ERC-20" => %{
+        "RAMA-20" => %{
           "incoming" => watchlist.watch_erc_20_input,
           "outcoming" => watchlist.watch_erc_20_output
         },
-        "ERC-721" => %{
+        "RAMA-721" => %{
           "incoming" => watchlist.watch_erc_721_input,
           "outcoming" => watchlist.watch_erc_721_output
         }
         # ,
-        # "ERC-1155" => %{
+        # "RAMA-1155" => %{
         #   "incoming" => watchlist.watch_erc_1155_input,
         #   "outcoming" => watchlist.watch_erc_1155_output
         # }

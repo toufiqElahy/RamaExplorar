@@ -50,19 +50,6 @@ config :block_scout_web, BlockScoutWeb.Endpoint,
 
 config :block_scout_web, BlockScoutWeb.Tracer, env: "dev", disabled?: true
 
-config :logger, :block_scout_web,
-  level: :debug,
-  path: Path.absname("logs/dev/block_scout_web.log")
-
-config :logger, :api,
-  level: :debug,
-  path: Path.absname("logs/dev/api.log"),
-  metadata_filter: [application: :api]
-
-config :logger, :api_v2,
-  level: :debug,
-  path: Path.absname("logs/dev/api_v2.log"),
-  metadata_filter: [application: :api_v2]
 
 # Set a higher stacktrace during development. Avoid configuring such
 # in production as building large stacktraces may be expensive.

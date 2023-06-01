@@ -263,7 +263,7 @@ interface IERC721 is IERC165 {
 // File: @openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol
 
 /**
- * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
+ * @title RAMA-721 Non-Fungible Token Standard, optional enumeration extension
  * @dev See https://eips.ethereum.org/EIPS/eip-721
  */
 interface IERC721Enumerable is IERC721 {
@@ -1415,7 +1415,7 @@ interface ShippingManagerI {
     event ShippingConfirmed(address indexed owner, address indexed tokenAddress, uint256 indexed tokenId);
 
     /**
-     * @dev True for ERC-721 tokens that are supported by this shipping manager, false otherwise.
+     * @dev True for RAMA-721 tokens that are supported by this shipping manager, false otherwise.
      */
     function tokenSupported(address tokenAddress) external view returns(bool);
 
@@ -1465,7 +1465,7 @@ interface ShippingManagerI {
 // File: contracts/CS3_1OnChainShop.sol
 
 /*
- * Implements ERC 721 NFT standard: https://github.com/ethereum/EIPs/issues/721.
+ * Implements RAMA 721 NFT standard: https://github.com/ethereum/EIPs/issues/721.
  */
 
 contract CS3_1OnChainShop {

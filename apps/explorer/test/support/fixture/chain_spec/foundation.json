@@ -1,5 +1,5 @@
 {
-	"name": "Ethereum",
+	"name": "Ramestta",
 	"dataDir": "ethereum",
 	"engine": {
 		"Ethash": {

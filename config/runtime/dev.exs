@@ -32,7 +32,7 @@ config :block_scout_web, BlockScoutWeb.Endpoint,
   ]
 
 ########################
-### Ethereum JSONRPC ###
+### Ramestta JSONRPC ###
 ########################
 
 ################

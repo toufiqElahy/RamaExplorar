@@ -1,7 +1,7 @@
 # credo:disable-for-this-file
 defmodule EthereumJSONRPC.Besu do
   @moduledoc """
-  Ethereum JSONRPC methods that are only supported by [Besu](https://besu.hyperledger.org/en/stable/Reference/API-Methods).
+  Ramestta JSONRPC methods that are only supported by [Besu](https://besu.hyperledger.org/en/stable/Reference/API-Methods).
   """
   import EthereumJSONRPC, only: [id_to_params: 1, integer_to_quantity: 1, json_rpc: 2]
 

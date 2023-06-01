@@ -3852,7 +3852,7 @@ defmodule Explorer.Chain do
   ## Returns
 
     * `:pending` - the transaction has not be confirmed in a block yet.
-    * `:awaiting_internal_transactions` - the transaction happened in a pre-Byzantium block or on a chain like Ethereum
+    * `:awaiting_internal_transactions` - the transaction happened in a pre-Byzantium block or on a chain like Ramestta
       Classic (ETC) that never adopted [EIP-658](https://github.com/Arachnid/EIPs/blob/master/EIPS/eip-658.md), which
       add transaction status to transaction receipts, so the status can only be derived whether the first internal
       transaction has an error.
@@ -5015,7 +5015,7 @@ defmodule Explorer.Chain do
     nft_tokens =
       from(
         token in Token,
-        where: token.type == ^"ERC-721" or token.type == ^"ERC-1155",
+        where: token.type == ^"RAMA-721" or token.type == ^"RAMA-1155",
         select: token.contract_address_hash
       )
 
@@ -5693,7 +5693,7 @@ defmodule Explorer.Chain do
       {"0xf907fc5b" <> _params, ^zero_wei} ->
         :erc20
 
-      # check for ERC-20 or for old ERC-721, ERC-1155 token versions
+      # check for RAMA-20 or for old RAMA-721, RAMA-1155 token versions
       {unquote(TokenTransfer.transfer_function_signature()) <> params, ^zero_wei} ->
         types = [:address, {:uint, 256}]
 
@@ -5734,9 +5734,9 @@ defmodule Explorer.Chain do
 
     if token_transfer do
       case token_transfer.token do
-        %Token{type: "ERC-20"} -> :erc20
-        %Token{type: "ERC-721"} -> :erc721
-        %Token{type: "ERC-1155"} -> :erc1155
+        %Token{type: "RAMA-20"} -> :erc20
+        %Token{type: "RAMA-721"} -> :erc721
+        %Token{type: "RAMA-1155"} -> :erc1155
         _ -> nil
       end
     else
@@ -5810,7 +5810,7 @@ defmodule Explorer.Chain do
 
   defp is_erc_20_token_type?(type) do
     case type do
-      "ERC-20" -> true
+      "RAMA-20" -> true
       _ -> false
     end
   end

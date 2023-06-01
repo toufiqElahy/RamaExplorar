@@ -1,6 +1,6 @@
 # EthereumJSONRPC
 
-Ethereum JSONRPC client.
+Ramestta JSONRPC client.
 
 ## Configuration
 

@@ -1,7 +1,7 @@
 # credo:disable-for-this-file
 defmodule EthereumJSONRPC.Erigon do
   @moduledoc """
-  Ethereum JSONRPC methods that are only supported by Erigon.
+  Ramestta JSONRPC methods that are only supported by Erigon.
   """
   import EthereumJSONRPC, only: [id_to_params: 1, integer_to_quantity: 1, json_rpc: 2]
 
