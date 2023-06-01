@@ -3,7 +3,7 @@ DO $$
     total_count         integer                     := 0;
     completed_count     integer                     := 0;
     remaining_count     integer                     := 0;
-    -- Eth Mainnet has ~80000 tokens and the old ETs way took ~90 minutes so approximate 1000 tokens per minute and
+    -- Rama Mainnet has ~80000 tokens and the old ETs way took ~90 minutes so approximate 1000 tokens per minute and
     -- make each batch take approximately 1 minute
     batch_size          integer                     := 1000;
     iterator            integer                     := batch_size;

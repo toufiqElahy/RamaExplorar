@@ -298,7 +298,7 @@ defmodule BlockScoutWeb.API.V2.SmartContractControllerTest do
       assert correct_response == response
     end
 
-    test "automatically verify contract via Eth Bytecode Interface", %{conn: conn} do
+    test "automatically verify contract via Rama Bytecode Interface", %{conn: conn} do
       {:ok, pid} = Explorer.Chain.Fetcher.LookUpSmartContractSourcesOnDemand.start_link([])
 
       bypass = Bypass.open()

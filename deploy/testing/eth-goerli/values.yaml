@@ -52,11 +52,11 @@ blockscout:
     NETWORK_ICON:
       _default: _network_icon.html
     COIN:
-      _default: ETH
+      _default: RAMA
     ECTO_USE_SSL:
       _default: 'false'
     COIN_NAME:
-      _default: ETH
+      _default: RAMA
     LOGO:
       _default: /images/goerli_logo.svg
     TXS_STATS_DAYS_TO_COMPILE_AT_INIT:
@@ -184,7 +184,7 @@ frontend:
     NEXT_PUBLIC_NETWORK_CURRENCY_NAME:
       _default: Rama
     NEXT_PUBLIC_NETWORK_CURRENCY_SYMBOL:
-      _default: ETH
+      _default: RAMA
     NEXT_PUBLIC_NETWORK_CURRENCY_DECIMALS:
       _default: 18
     NEXT_PUBLIC_NETWORK_TOKEN_ADDRESS:

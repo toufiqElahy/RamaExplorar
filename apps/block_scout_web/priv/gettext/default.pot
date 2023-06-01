@@ -1212,7 +1212,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
 #, elixir-autogen, elixir-format
-msgid "ETH RPC API Documentation"
+msgid "RAMA RPC API Documentation"
 msgstr ""
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:83
@@ -1308,7 +1308,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:120
 #, elixir-autogen, elixir-format
-msgid "Eth RPC"
+msgid "Rama RPC"
 msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:211

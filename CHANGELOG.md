@@ -145,7 +145,7 @@
 ### Features
 
 - [#7253](https://github.com/blockscout/blockscout/pull/7253) - Add `EIP_1559_ELASTICITY_MULTIPLIER` env variable
-- [#7187](https://github.com/blockscout/blockscout/pull/7187) - Integrate [Eth Bytecode DB](https://github.com/blockscout/blockscout-rs/tree/main/eth-bytecode-db/eth-bytecode-db)
+- [#7187](https://github.com/blockscout/blockscout/pull/7187) - Integrate [Rama Bytecode DB](https://github.com/blockscout/blockscout-rs/tree/main/eth-bytecode-db/eth-bytecode-db)
 - [#7185](https://github.com/blockscout/blockscout/pull/7185) - Aave v3 transaction actions indexer
 - [#7148](https://github.com/blockscout/blockscout/pull/7148), [#7244](https://github.com/blockscout/blockscout/pull/7244) - API v2 improvements: API rate limiting, `/tokens/{address_hash}/instances/{token_id}/holders` and other changes
 
@@ -2086,7 +2086,7 @@ fixed menu hovers in dark mode desktop view
 
 ### Features
 
-- [#2433](https://github.com/blockscout/blockscout/pull/2433) - Add a functionality to try Eth RPC methods in the documentation
+- [#2433](https://github.com/blockscout/blockscout/pull/2433) - Add a functionality to try Rama RPC methods in the documentation
 - [#2529](https://github.com/blockscout/blockscout/pull/2529) - show both eth value and token transfers on transaction overview page
 - [#2376](https://github.com/blockscout/blockscout/pull/2376) - Split API and WebApp routes
 - [#2477](https://github.com/blockscout/blockscout/pull/2477) - aggregate token transfers on transaction page
@@ -2318,7 +2318,7 @@ fixed menu hovers in dark mode desktop view
 - [#1974](https://github.com/blockscout/blockscout/pull/1974) - feat: previous page button logic
 - [#1999](https://github.com/blockscout/blockscout/pull/1999) - load data async on addresses page
 - [#1807](https://github.com/blockscout/blockscout/pull/1807) - New theming capabilities.
-- [#2040](https://github.com/blockscout/blockscout/pull/2040) - Verification links to other explorers for ETH
+- [#2040](https://github.com/blockscout/blockscout/pull/2040) - Verification links to other explorers for RAMA
 - [#2037](https://github.com/blockscout/blockscout/pull/2037) - add address logs search functionality
 - [#2012](https://github.com/blockscout/blockscout/pull/2012) - make all pages pagination async
 - [#2064](https://github.com/blockscout/blockscout/pull/2064) - feat: add fields to tx apis, small cleanups
